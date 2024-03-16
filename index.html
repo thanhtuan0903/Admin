@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accusoft admin</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+ />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h3><span class="fa-solid fa-house"></span><span>Accusoft</span></h3>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="" class="active"><span class="fa-solid fa-igloo"></span>
+                    <span>Dashboar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><span class="fa-solid fa-user"></span>
+                    <span>Customers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><span class="fa-solid fa-clipboard-list"></span>
+                    <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><span class="fa-solid fa-bag-shopping"></span>
+                    <span>Orders</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><span class="fa-solid fa-receipt"></span>
+                    <span>Inventory</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><span class="fa-solid fa-circle"></span>
+                    <span>Accuonts</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><span class="fa-solid fa-clipboard-list"></span>
+                    <span>Tasks</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h3>
+                <label for="nav-toggle">
+                    <span class="fa-solid fa-bars"></span>
+                </label>
+                Dashboard
+            </h3>
+
+            <div class="search-wrapper">
+                <span class="fa-solid fa-seach"></span>
+                <input type="search" placeholder="Search Here" />
+            </div>
+
+            <div class="user-wrapper">
+                <img src="https://cdn4.iconfinder.com/data/icons/forum-buttons-and-community-signs-1/794/profile-3-512.png" width="40px" height="40px" alt="">
+                <div>
+                    <h4>Thanh Tuấn</h4>
+                    <small>Super admin</small>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h2>117</h2>
+                        <span>
+                            Customers
+                        </span>
+                    </div>
+                    <div>
+                        <span class="fa-solid fa-user"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h2>154</h2>
+                        <span>
+                            Projects
+                        </span>
+                    </div>
+                    <div>
+                        <span class="fa-solid fa-clipboard-list"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h2>189</h2>
+                        <span>
+                            Oderrs
+                        </span>
+                    </div>
+                    <div>
+                        <span class="fa-solid fa-bag-shopping"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h2>$6k</h2>
+                        <span>
+                            Income
+                        </span>
+                    </div>
+                    <div>
+                        <span class="fa-solid fa-wallet"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-grid">
+                <div class="project">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Recent Projects</h3>
+
+                            <button>See all <span class="fa-solid fa-arrow-right"></span></button>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table width="100%">
+                                    <thead>
+                                        <tr>
+                                            <td>
+                                                Project Title
+                                            </td>
+                                            <td>
+                                                Department
+                                            </td>
+                                            <td>
+                                                Status
+                                            </td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>UI/Ux Designer</td>
+                                            <td>Ui Team</td>
+                                            <td>
+                                                <span class="status purple"></span>
+                                                review
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>Wed development</td>
+                                            <td>Frontend</td>
+                                            <td>
+                                                <span class="status pink"></span>
+                                                in progress
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ushop app</td>
+                                            <td>Mobile Team</td>
+                                            <td>
+                                                <span class="status orange"></span>
+                                                pending
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>UI/Ux Designer</td>
+                                            <td>Ui Team</td>
+                                            <td>
+                                                <span class="status purple"></span>
+                                                review
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>Wed development</td>
+                                            <td>Frontend</td>
+                                            <td>
+                                                <span class="status pink"></span>
+                                                in progress
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ushop app</td>
+                                            <td>Mobile Team</td>
+                                            <td>
+                                                <span class="status orange"></span>
+                                                pending
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>UI/Ux Designer</td>
+                                            <td>Ui Team</td>
+                                            <td>
+                                                <span class="status purple"></span>
+                                                review
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>Wed development</td>
+                                            <td>Frontend</td>
+                                            <td>
+                                                <span class="status pink"></span>
+                                                in progress
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ushop app</td>
+                                            <td>Mobile Team</td>
+                                            <td>
+                                                <span class="status orange"></span>
+                                                pending
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="customers">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>New customer</h3>
+
+                            <button>See all <span class="fa-solid fa-arrow-right"></span></button>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="customer">
+                                <div class="info">
+                                   <img src="https://cdn4.iconfinder.com/data/icons/forum-buttons-and-community-signs-1/794/profile-3-512.png" width="40px" height="40px" alt="">
+                                   <div>
+                                     <h4>Thanh Tuấn</h4>
+                                     <small>CEO Excerpt</small>
+                                   </div>
+                                </div>
+                                <div class="contact">
+                                 <span class="fa-solid fa-circle-user"></span>
+                                 <span class="fa-solid fa-comment"></span>
+                                 <span class="fa-solid fa-phone"></span>
+                                </div>
+                             </div>
+                             <div class="customer">
+                                 <div class="info">
+                                    <img src="https://cdn4.iconfinder.com/data/icons/forum-buttons-and-community-signs-1/794/profile-3-512.png" width="40px" height="40px" alt="">
+                                    <div>
+                                      <h4>Thanh Tuấn</h4>
+                                      <small>CEO Excerpt</small>
+                                    </div>
+                                 </div>
+                                 <div class="contact">
+                                  <span class="fa-solid fa-circle-user"></span>
+                                  <span class="fa-solid fa-comment"></span>
+                                  <span class="fa-solid fa-phone"></span>
+                                 </div>
+                              </div>
+                              <div class="customer">
+                                 <div class="info">
+                                    <img src="https://cdn4.iconfinder.com/data/icons/forum-buttons-and-community-signs-1/794/profile-3-512.png" width="40px" height="40px" alt="">
+                                    <div>
+                                      <h4>Thanh Tuấn</h4>
+                                      <small>CEO Excerpt</small>
+                                    </div>
+                                 </div>
+                                 <div class="contact">
+                                  <span class="fa-solid fa-circle-user"></span>
+                                  <span class="fa-solid fa-comment"></span>
+                                  <span class="fa-solid fa-phone"></span>
+                                 </div>
+                              </div>
+                              <div class="customer">
+                                 <div class="info">
+                                    <img src="https://cdn4.iconfinder.com/data/icons/forum-buttons-and-community-signs-1/794/profile-3-512.png" width="40px" height="40px" alt="">
+                                    <div>
+                                      <h4>Thanh Tuấn</h4>
+                                      <small>CEO Excerpt</small>
+                                    </div>
+                                 </div>
+                                 <div class="contact">
+                                  <span class="fa-solid fa-circle-user"></span>
+                                  <span class="fa-solid fa-comment"></span>
+                                  <span class="fa-solid fa-phone"></span>
+                                 </div>
+                              </div>
+                              <div class="customer">
+                                 <div class="info">
+                                    <img src="https://cdn4.iconfinder.com/data/icons/forum-buttons-and-community-signs-1/794/profile-3-512.png" width="40px" height="40px" alt="">
+                                    <div>
+                                      <h4>Thanh Tuấn</h4>
+                                      <small>CEO Excerpt</small>
+                                    </div>
+                                 </div>
+                                 <div class="contact">
+                                  <span class="fa-solid fa-circle-user"></span>
+                                  <span class="fa-solid fa-comment"></span>
+                                  <span class="fa-solid fa-phone"></span>
+                                 </div>
+                              </div>
+                              <div class="customer">
+                                 <div class="info">
+                                    <img src="https://cdn4.iconfinder.com/data/icons/forum-buttons-and-community-signs-1/794/profile-3-512.png" width="40px" height="40px" alt="">
+                                    <div>
+                                      <h4>Thanh Tuấn</h4>
+                                      <small>CEO Excerpt</small>
+                                    </div>
+                                 </div>
+                                 <div class="contact">
+                                  <span class="fa-solid fa-circle-user"></span>
+                                  <span class="fa-solid fa-comment"></span>
+                                  <span class="fa-solid fa-phone"></span>
+                                 </div>
+                              </div>
+                              <div class="customer">
+                                 <div class="info">
+                                    <img src="https://cdn4.iconfinder.com/data/icons/forum-buttons-and-community-signs-1/794/profile-3-512.png" width="40px" height="40px" alt="">
+                                    <div>
+                                      <h4>Thanh Tuấn</h4>
+                                      <small>CEO Excerpt</small>
+                                    </div>
+                                 </div>
+                                 <div class="contact">
+                                  <span class="fa-solid fa-circle-user"></span>
+                                  <span class="fa-solid fa-comment"></span>
+                                  <span class="fa-solid fa-phone"></span>
+                                 </div>
+                              </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+    
+</body>
+</html>
